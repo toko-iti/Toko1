@@ -63,16 +63,16 @@
                     <h2 class="tagline1">S'pitch</h2>
                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="E-mail" name="email" type="email" autofocus>
+                                    <input class="form-control" placeholder="E-mail" name="email" type="email" required autofocus>
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="Project" name="project" type="project" autofocus>
+                                    <input class="form-control" placeholder="Project" name="project" type="project" required autofocus>
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="Password" name="password" type="password">
+                                    <input class="form-control" placeholder="Password" name="password" type="password" required >
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="Confirm password" name="password2" type="password"/>
+                                    <input class="form-control" placeholder="Confirm password" name="password2" type="password" required/>
                                 </div>
                                 
                                 <!-- Change this to a button or input when using this as a form -->

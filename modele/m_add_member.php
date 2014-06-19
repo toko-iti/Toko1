@@ -4,9 +4,8 @@ $Pwd = $_POST['password'];
 $Pwd = sha1($Pwd);
 $email = $_POST['email'];
 $id = "";
-echo "hey je suis un pangolin :D";
-
-$sql = 'INSERT INTO Users (ID_User, Project, Mail, Password) 
-VALUES ('',"'.$projet.'","'.$Pwd.'","'.$mail.'")';
-mysql_query($sql);
+echo "lapin";
+$sql = "INSERT INTO users VALUES ('','".$projet."','".$email."','".$Pwd."','0')";
+mysqli_query($bdd, $sql)
+or die ('Erreur SQL !'.$sql.'<br />'.mysqli_error($bdd));;
 ?>

@@ -1,4 +1,4 @@
 <?php
-$bdd = mysql_connect('localhost', 'root', 'root');
-mysql_select_db ('mydb', $bdd); 
+$bdd = mysqli_connect('localhost', 'root', 'root');
+mysqli_select_db ($bdd, 'toko'); 
 ?>
